@@ -35,6 +35,7 @@ Uzyskany zbiór danych został losowo podzielony na dwa zestawy, gdzie zbiór tr
 Przygotowaliśmy 3 różne modele, które rozwiązują zadany problem.
 
 Rozwiązania znajdują się w folderach:
+
 [Pierwszy model](https://github.com/pfilo8/BHL-Hackathon-AI/tree/master/results/3categories)
 
 [Drugi model](https://github.com/pfilo8/BHL-Hackathon-AI/tree/master/results/prunned_tree)
@@ -59,6 +60,6 @@ Dzięki zastosowaniu AutoML jesteśmy w stanie w efektywny sposób wybrać **naj
 Notatnik `Summary.ipynb` zawiera analizę, porównanie i wnioski wszystkich przygotowanych przez nas rozwiązań.
 
 ## Uruchomienie modelu na danych testowych <a name="test"></a>
-W notatniku `Submission.ipynb` można uruchomić zbiór testowy `test_data.csv`. Testuje od dokładność naszego najslepszego modelu.
+W notatniku `AI-template.ipynb` można uruchomić zbiór testowy `test_data.csv`. Testuje od dokładność naszego najlepszego modelu.
 
 
