@@ -6,7 +6,7 @@ import sweetviz as sv
 
 
 def save_analysis(report, activity_name):
-    report.show_html(filepath=os.path.join('reports', f'{activity_name}-analysis.html'), open_browser=False)
+    report.show_html(filepath=os.path.join('reports', 'eda', f'{activity_name}-analysis.html'), open_browser=False)
 
 
 if __name__ == '__main__':
@@ -21,4 +21,4 @@ if __name__ == '__main__':
     for activity in unique_activities:
         df_activity = df[df['Activity'] == activity]
         report = sv.analyze(df_activity, pairwise_analysis='off')
-        report.show_html(filepath=os.path.join('reports', f'{activity}-analysis.html'))
+        report.show_html(filepath=os.path.join('reports', 'eda', f'{activity}-analysis.html'))
