@@ -22,6 +22,7 @@ Celem przygotowanego rozwiązania jest identyfikacja zachowania użytkownika i k
 
 # Dane <a name="dane"></a>
 Dane do trenowania modelu znajdują się w pliku `final_train.csv` i zostały dostarczone przez organizatorów.
+Link do danych: [Dane](https://drive.google.com/file/d/1DoxiFqlLykD5IXIwdoOEfDephhsuR1T4/view?usp=sharing)
 
 Zawierają informacje o aktywnościach uczetników biorących udział w eksperymencie. Zbiór danych składa się z sześciu podstawowych czynności: trzech postaw statycznych (stanie, siedzenie, leżenie) oraz trzech czynności dynamicznych (chodzenie, schodzenie po schodach i wchodzenie po schodach). Podczas wykonywania eksperymentu wszyscy uczestnicy nosili przypięty na pasku smartfon (Samsung Galaxy S II). 
 
